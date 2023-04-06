@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: "Montserrat",sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.bg-dark{
+    --bs-bg-opacity:0;
+}
+.logo{
+    margin-left: 7vw;
+}
+
+.navcoloruni{
+    margin-left: 20vw;
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.navcolor{
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.btnmat{
+    width: 200px;
+    height: 50px;
+    margin-left: 5vw;
+    background-color:#bcff00;
+    font-weight: 600;
+    font-size: 15px;
+}
+.btnmat:hover{
+    background-color:#000000;
+    border-color: #bcff00;
+    color:#bcff00;
+}
+
+.banner{
+    background-image: url(../imagens/Banner.jpg);
+    width: 95%;
+    height:90vh;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.divestrutura{
+    width:100%;
+    height:40px;
+}
+
+.estrutura{
+    margin-top: 100px;
+    margin-left: 5vw;
+    letter-spacing:15px;
+    font-weight: 600;
+    font-size: 2rem;
+    color: white;
+    font-family: "Core Sans D",sans-serif;
+    display:flex;
+}
+
+.linha{
+    margin-top: 15px;
+    background-color: #9100fa;
+    height: 6px;
+    width:100%;
+    float:left;
+}
+    
+.sectionimg{
+    height: 100%;
+    width:100%
+}
+
+.foto-1{
+    background-image: url(../imagens/Musculacao-1.png);
+    width: 375px;
+    height: 375px;
+    margin-top: 50px;
+    float: left;
+    border-radius: 10px;
+}
+
+.foto-2{
+    background-image: url(../imagens/Danca-1.png);
+    width: 375px;
+    height: 375px;
+    margin-top: 50px;
+    float: left;
+    border-radius: 10px;
+}
+
+.foto-3{
+    background-image: url(../imagens/Cardio-1.png);
+    width: 375px;
+    height: 375px;
+    margin-top: 50px;
+    float: left;
+    border-radius: 10px;
+}
+.foto-4{
+    background-image: url(../imagens/Atendimento-1.png);
+    width: 375px;
+    height: 375px;
+    margin-top: 50px;
+    float: left;
+    border-radius: 10px;
+}
+.foto-5{
+    background-image: url(../imagens/Bike-Indoor-1.png);
+    width: 375px;
+    height: 375px;
+    margin-top: 50px;
+    float: left;
+    border-radius: 10px;
+}
+.foto-6{
+    background-image: url(../imagens/Brinquedoteca-1.png);
+    width: 375px;
+    height: 375px;
+    margin-top: 50px;
+    float: left;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.descfoto{
+    color: #bcff00;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.planos{
+text-align: center;
+color: #9100fa;
+letter-spacing:2px; 
+font-weight: 800;
+font-size: 1.5rem;
+padding-top: 20px;
+}
+
+.gosma{
+    background-image: url(../imagens/gosma.png);
+    background-size: cover;
+    height: 100px;
+}
+
+.plano1{
+    background-image: url(../imagens/planos-1.png);
+    filter: brightness(70%);
+    height: 600px;
+    width: 350px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 800;
+    margin-left: 5vw;
+}
+
+.titulo{
+    margin-left: 50px;
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+.verde{
+    color: #bcff00;
+    font-weight: 900;
+    margin-left: 50px;
+}
+.text-center{
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+.card-text{
+    margin-left: 50px;
+}
+.descricao{
+    margin: 35px;
+}
+
+.plano2{
+    background-image: url(../imagens/planos-2.png);
+    filter: brightness(70%);
+    height: 600px;
+    width: 350px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 800;
+    margin-left: 5vw;
+}
+
+.plano3{
+    background-image: url(../imagens/planos-3.png);
+    filter: brightness(70%);
+    height: 600px;
+    width: 350px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 800;
+    margin-left: 5vw;
+}
+
+.btnpagamento{
+        width: 350px;
+        height: 50px;
+        background-color:#bcff00;
+        font-weight: 700;
+        font-size: 20px;
+        color: #000000;
+        margin-bottom: 50px;
+        margin-left: 5vw;
+}
+
+.btnpagamento:hover{
+        background-color:#000000;
+        border-color: #bcff00;
+        color:#bcff00;
+    }
+
+.espaço{
+    margin-top: 50px;
+}
+
+
+@media (max-width:1000px){
+    .banner{
+        background-image: url(../imagens/Banner2.jpg);
+        background-size: cover;
+        width: 95%;
+    }
+    .estrutura{
+        letter-spacing:10px;
+        font-size: 1.5rem;
+        
+    }
+
+    .foto-1{
+        width: 325px;
+        height: 325px;
+        margin-left: 4.5vw;
+    }
+    
+    .foto-2{
+        width: 325px;
+        height: 325px;
+        margin-left: 4.5vw;
+    }
+    
+    .foto-3{
+        width: 325px;
+        height: 325px;
+        margin-left: 4.5vw;
+    }
+    .foto-4{
+        width: 325px;
+        height: 325px;
+        margin-left: 4.5vw;
+    }
+    .foto-5{
+        width: 325px;
+        height: 325px;
+        margin-left: 4.5vw;
+    }
+    .foto-6{
+        width: 325px;
+        height: 325px;
+        margin-left: 4.5vw;
+    }
+
+    .plano1{
+        margin-left: 2.5vw;
+    }
+    .plano2{
+        margin-left: 2.5vw;
+    }
+    .plano3{
+        margin-left: 2.5vw;
+    }
+    .btnpagamento{
+        margin-left: 2.5vw;
+    }
+
+}
